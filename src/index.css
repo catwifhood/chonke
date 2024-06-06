@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "katana";
+  src: local("katanaMotleyForce"),
+   url("/public/KATANA.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+@font-face {
+  font-family: "kungfoo";
+  src: local("kungfoo"),
+   url("/public/KungfooFighterDEMO.otf") format("truetype");
+  font-weight: bold;
+ }
+
+ .font-katana {
+  font-family: "katana";
+ }
+ 
+
+body {
+  margin: 0;
+  font-family: 'kungfoo', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.track-horizontal {
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee-horizontal 10s linear infinite;
+  /* manipulate the speed of the marquee by changing "40s" line above*/
+}
+
+@keyframes marquee-horizontal {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}

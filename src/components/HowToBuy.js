@@ -18,7 +18,7 @@ const StepCard = (props) => {
 export default function HowToBuy() {
   return (
     <div className="w-full mx-auto">
-      <div className="flex flex-col gap-20 max-w-[1280px] py-20 mx-auto px-5 md:px-0">
+      <div className="flex flex-col gap-10 max-w-[1280px] py-20 mx-auto px-5 md:px-0">
         <div className="col-span-1 md:col-span-2 flex justify-center mb-10">
           <h1 className="text-4xl md:text-8xl font-black font-katana">HOW TO BUY</h1>
         </div>

@@ -13,10 +13,10 @@ export default function Header() {
         >
           <img src="/telegram.png" alt="image" className="w-10 h-10" />
         </a>
-        <a href="https://x.com/unoreverse_sol" target="_blank" rel="noreferrer">
+        <a href="https://x.com/ChonkeOnSolana" target="_blank" rel="noreferrer">
           <img src="/x.png" alt="image" className="w-10 h-10" />
         </a>
-        <a href="https://x.com/unoreverse_sol" target="_blank" rel="noreferrer">>
+        <a href="https://pump.fun/" target="_blank" rel="noreferrer">>
           <img src="/pill.png" alt="image" className="w-10 h-10" />
         </a>
       </div>

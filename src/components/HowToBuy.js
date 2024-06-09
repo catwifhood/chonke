@@ -23,9 +23,9 @@ export default function HowToBuy() {
           <h1 className="text-4xl md:text-8xl font-black font-katana">HOW TO BUY</h1>
         </div>
         <div className="flex flex-col gap-10 justify-center items-center">
-          <p className="text-2xl md:text-4xl bg-[#FFB400] w-[50%] text-center py-2 rounded-xl align-middle">DOWNLOAD PHANTOM</p>
-          <p className="text-2xl md:text-4xl bg-[#FFB400] w-[50%] text-center py-2 rounded-xl align-middle">LOAD SOME SOLANA</p>
-          <p className="text-2xl md:text-4xl bg-[#FFB400] w-[50%] text-center py-2 rounded-xl align-middle">SWAP SOLANA FOR CHONKE</p>
+          <p className="text-2xl md:text-4xl bg-[#FFB400] w-[50%] text-center py-2 rounded-xl align-middle">DOWNLOAD METAMASK</p>
+          <p className="text-2xl md:text-4xl bg-[#FFB400] w-[50%] text-center py-2 rounded-xl align-middle">LOAD SOME ETH ON BASE</p>
+          <p className="text-2xl md:text-4xl bg-[#FFB400] w-[50%] text-center py-2 rounded-xl align-middle">SWAP ETH FOR CHONKE</p>
         </div>
       </div>
     </div>

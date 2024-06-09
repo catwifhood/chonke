@@ -12,7 +12,7 @@ export default function Header() {
           <img src="/x.png" alt="image" className="w-10 h-10" />
         </a>
         <a href="https://pump.fun/HEyYUg7zW89buR4bryY4EDDsCQzsqDJW62GBPSampump" target="_blank" rel="noreferrer">
-          <img src="/pill.png" alt="image" className="w-10 h-10" />
+          <img src="/ape.png" alt="image" className="w-10 h-10" />
         </a>
       </div>
     </div>
